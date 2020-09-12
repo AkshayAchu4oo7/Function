@@ -4,11 +4,16 @@
     </head>
     <body>
         <h1>Welcome</h1>
+        <form>
+            <input type = "button" onclick = "sayHello()" value = "Say Hello">
+         </form>   
         <div id="post">
 
         </div>
         <script>
-            document.getElementById('post');
+          function sayHello() {
+            document.write ("Hello there!");
+         }
         </script>
     </body>
 </html>
